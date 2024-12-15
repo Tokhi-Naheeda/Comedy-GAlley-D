@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    background-image: url(./image/background_04.jpg);
+    background-size: cover;
+}
+
+header .headline {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    text-transform: uppercase;
+    justify-content: space-between;
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 4rem;
+    background-image: url(./image/background_04.jpg);
+    opacity: 0.9;
+    transition: 5s;
+}
+
+header .underline {
+    animation-name: header;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+}
+
+@keyframes header {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 59.9%;
+    }
+}
+
+header .headline i {
+    position: fixed;
+    top: 2rem;
+    left: 0.5rem;
+    font-size: 2rem;
+    color: black;
+    opacity: 0.4;
+}
+
+header .headline :nth-child(2) {
+    color: red;
+    margin-left: 23rem;
+}
+
+header .headline :nth-child(3) {
+    color: orange;
+}
+
+header .headline :nth-child(4) {
+    color: yellow;
+}
+
+header .headline :nth-child(5) {
+    color: green;
+}
+
+header .headline :nth-child(6) {
+    color: #3cafe2;
+}
+
+header .headline :nth-child(7) {
+    color: purple;
+    margin-right: 3rem;
+}
+
+header .headline :nth-child(8) {
+    color: lightskyblue;
+}
+
+header .headline :nth-child(9) {
+    color: lightskyblue;
+    margin-right: 3rem;
+}
+
+header .headline :nth-child(10) {
+    color: purple;
+}
+
+header .headline :nth-child(11) {
+    color: #3cafe2;
+}
+
+header .headline :nth-child(12) {
+    color: green;
+    margin-right: 3rem;
+}
+
+header .headline :nth-child(13) {
+    color: yellow;
+}
+
+header .headline :nth-child(14) {
+    color: orange;
+}
+
+header .headline :nth-child(15) {
+    color: red;
+    margin-right: 24.5rem;
+}
+
+.underline {
+    position: fixed;
+    top: 4rem;
+    width: 59.9%;
+    height: 4px;
+    border: 2px solid green;
+    background-color: green;
+    margin-top: 0.3rem;
+    margin-left: 23.1rem;
+}
+
+header .search-glass {
+    position: fixed;
+    top: 2rem;
+    left: 106rem;
+    font-style: italic;
+    font-size: 14px;
+}
+
+header .search-glass input {
+    height: 1.5rem;
+    font-style: italic;
+    font-size: 12px;
+}
+
+.box {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    margin-top: 14rem;
+    margin-left: 8rem;
+    margin-bottom: 10rem;
+    gap: 80px;
+}
+
+.box .sitcom {
+    width: 250px;
+    height: 200px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 3px 3px 10px 0px rgb(255, 255, 255);
+}
+
+.box .sitcom img {
+    width: 250px;
+    height: 200px;
+    border-radius: 8%;
+    border: 3px solid purple;
+}
+
+.box .sitcom button {
+    width: 15rem;
+    margin-top: 0.2rem;
+    font-weight: 600;
+    border-radius: 16px;
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.box .sitcom a {
+    color: blue;
+    text-decoration: none;
+}
+
+.box .sitcom button:hover {
+    transform: scale(1.1);
+}
+
+.box .sitcom a:hover {
+    cursor: pointer;
+    color: green;
+}
+
+footer {
+    width: 100%;
+    margin-top: 5rem;
+    position: relative;
+    background-color: silver;
+    opacity: 0.8;
+    background-image: url(./image/background_04.jpg);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+footer .left {
+    width: 15%;
+    margin-left: 42rem;
+    display: inline-block;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 1rem;
+    color: green;
+}
+
+footer .right {
+    width: 15%;
+    display: inline-block;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1rem;
+    color: green;
+    border-left: 1px solid green;
+}
+
+footer .right img {
+    width: 22px;
+    color: green;
+    background-color: green;
+}
+
+footer .left h4,
+.right h4 {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+footer .left i,
+.right i {
+    font-size: 2rem;
+    margin: 1rem;
+}
+
+footer .under {
+    width: 100%;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+    border-top: 1px solid green;
+}
+
+footer .under a {
+    color: green;
+    margin-left: 1rem;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+footer p {
+    width: 100%;
+    margin: 0 auto;
+    padding: 1rem;
+    text-align: center;
+    color: green;
+}
